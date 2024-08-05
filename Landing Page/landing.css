@@ -1,0 +1,77 @@
+/* index.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://in.images.search.yahoo.com/search/images;_ylt=AwrKAIQ456xmYMMNOjK9HAx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcyMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZAMueWtNX0V0VVQudXo4X1VJeURDdzZBBG5fcnNsdAMwBG5fc3VnZwMxMARvcmlnaW4DaW4uaW1hZ2VzLnNlYXJjaC55YWhvby5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzE0BHF1ZXJ5A3dlYXRoZXIlMjBpbWFnZXMEdF9zdG1wAzE3MjI2MDc0NTM-?p=weather+images&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E210IN826G0#id=16&iurl=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp8403192.jpg&action=click') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border: 5px solid #007BFF;
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+.inputs input[type="text"] {
+    padding: 15px;
+    width: calc(100% - 30px);
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.inputs input[type="submit"] {
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.inputs input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.display .wrapper {
+    margin-top: 20px;
+}
+
+.display h2 {
+    margin: 10px 0;
+    font-size: 28px;
+    color: #333;
+}
+
+.display p {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #666;
+}
+
+.display .highlight {
+    font-weight: bold;
+    color: #007BFF;
+    background-color: #e6f2ff;
+    padding: 5px;
+    border-radius: 5px;
+}
